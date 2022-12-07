@@ -22,3 +22,8 @@ class Downloader(ABC):
         day_ = str_[0].split('_')[1]
 
         return f"The data for the day {day_}!"
+
+def get_middle_word(word: str) -> str:
+    
+    k = len(word)
+    return k // 2
